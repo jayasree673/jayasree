@@ -1,0 +1,80 @@
+
+        
+
+        
+        
+            
+        
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+        
+            h1{
+                color:white;
+                background-color:black;
+            }
+            /*class selector*/
+            .cssTypes{
+                color:red;
+    
+            }
+            /*id selector*/
+            #paragraph{
+                color:blue;
+            }
+            /*element or type selector*/
+           h1{
+
+            font-size:40px;
+            }
+            /*universal selector*/
+            *{
+            font-size:30px;
+            font-family:"Roboto";
+
+             }
+           /*descendent slector*/
+           div div{
+           font-size:20px;
+           font-style:itallic;
+           color:green;
+           }
+          /*child selector*/
+          div>h4{
+          color:blueviolet;
+         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         }
+        </style>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>CSS Class</h1>
+        <div><h2 class="cssTypes">Types of css:</h2></div>
+        <div><p id="paragraph">inlines css</p></div>
+        <div><p id="paragraph">internal css</p></div>
+        <div><p id="paragraph">external css</p></div>
+        <div><p id="paragraph">these are the types</p></div>
+        <br>
+        <br>
+        <div>
+            <div><h3>this is descendant selector</h3></div>
+            <div><p>it selects elements that are descendent to another specified element</p></div>
+            <div><p>if we give div p,it selects all p elements in div tag</p></div>
+        </div>
+        <br>
+        <br>
+        <div>
+            <h4>This is child selector</h4>
+            <p>it only selects the direct child of a specified element</p>
+            <p>if div contains p and p contains h1, it only selects p in the div element.</p>
+        </div>
+        <br>
+        <br>
+        
+    
+    </body>
+    </html>
