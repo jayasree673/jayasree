@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic CSS Animationt</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            margin: 30px;
+            background-color: aquamarine;
+            position: relative;
+            animation-name: move-box;
+            aimation-duration:2s;
+            animation-iteration-count: infinite; 
+        }
+        @keyframes move-box {
+            0%{left:0;transform:rotate(0deg);}
+            50%{left:200px;border-radius: 20pxtransform : scale(0.5)rotate(180deg);}
+         100%{left:400px;transform:scale(1,5)rotate(360deg)}
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+</html>
